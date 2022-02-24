@@ -1,0 +1,25 @@
+package CollectionFrameWork;
+
+
+import java.util.HashSet;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> data = new HashSet();
+		
+		data.add("naveen");
+		data.add("kumar");
+		data.add("peddapudi");
+		data.add(null);
+		
+		String s ="naveen";
+		System.out.println(s.hashcode());
+		for(String d : data) {
+			System.out.println(d);
+		}
+		
+	}
+
+}

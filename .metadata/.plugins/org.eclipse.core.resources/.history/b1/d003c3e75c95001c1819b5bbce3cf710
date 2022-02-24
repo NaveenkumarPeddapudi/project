@@ -1,0 +1,33 @@
+package CollectionFrameWork;
+
+import java.util.ArrayList;
+
+public class ArrayListexample{
+	
+	void test(ArrayList<Integer> data) {
+		data.add(99);
+		
+	}
+
+	public static void main(String[] args) {
+		int [] a = new int [3];
+		a[0]=7;
+		a[1]=8;
+		a[2]=9;
+		
+		
+		ArrayList<integer> list = new ArrayList();
+		list.add(9);
+		list.add(8);
+		list.add(7);
+		
+		
+		for (Integer val: list) {
+			System.out.println(val);
+		}
+		
+		new ArrayList().test(list);
+
+	}
+
+}

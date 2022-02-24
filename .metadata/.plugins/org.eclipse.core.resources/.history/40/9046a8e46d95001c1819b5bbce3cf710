@@ -1,0 +1,30 @@
+package CollectionFrameWork;
+
+import java.util.Set;
+import java.util.TreeMap;
+
+public class TreeMapWExample {
+	
+
+		public static void main(String[] args) {
+			TreeMap<String,String > TreeMap =new TreeMap<>();
+			
+			
+			TreeMap.put("second", "Kumar");
+			TreeMap.put("third", "Peddapudi");
+			TreeMap.put("first" , "Naveen");
+			
+			Set<String> keys = TreeMap.keySet();
+			for (String key : keys) {
+				System.out.println(key);
+				
+			}
+			
+
+		}
+
+
+
+
+
+}
